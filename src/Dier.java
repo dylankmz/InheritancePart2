@@ -1,18 +1,13 @@
 public class Dier {
 
-    String naam;
+    protected String naam;
 
     public Dier(String naam) {
         this.naam = naam;
     }
 
-
     public void maakGeluid() {
         System.out.print(naam);
-    }
-
-    public void verVel() {
-        System.out.println(naam);
     }
 
     public String getNaam() {

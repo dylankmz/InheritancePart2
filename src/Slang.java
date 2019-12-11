@@ -4,9 +4,11 @@ public class Slang extends Dier {
         super (naam);
     }
 
-    @Override
-    public void verVel() {
-        super.verVel();
-        System.out.println("vervel");
+    public void vervel() {
+        System.out.println(getNaam() + ": ik vervel");
+
     }
+
+
+
 }
