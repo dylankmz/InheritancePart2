@@ -1,9 +1,9 @@
 public class Dier {
 
-    private String naam;
+    String naam;
 
-    public Dier(String naam) {
-        this.naam = naam;
+    public void maakGeluid() {
+        System.out.println("naam: dieren geluid");
     }
 
     public String getNaam() {
@@ -14,7 +14,7 @@ public class Dier {
         this.naam = naam;
     }
 
-    public void maakGeluid() {
-        System.out.println(this.naam + " : dieren geluid!!!!");
+    public Dier(String naam) {
+        this.naam = naam;
     }
 }
