@@ -7,5 +7,6 @@ public class Eend extends Dier {
     @Override
     public void maakGeluid() {
         super.maakGeluid();
+        System.out.println("Kwak");
     }
 }

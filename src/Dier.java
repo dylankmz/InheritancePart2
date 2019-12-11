@@ -11,6 +11,10 @@ public class Dier {
         System.out.print(naam);
     }
 
+    public void verVel() {
+        System.out.println(naam);
+    }
+
     public String getNaam() {
         return naam;
     }
