@@ -4,4 +4,7 @@ public class Kat extends Dier {
     public void maakGeluid() {
         super.maakGeluid();
     }
+    public Kat(String naam) {
+        super(naam);
+    }
 }

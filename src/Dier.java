@@ -17,4 +17,5 @@ public class Dier {
     public Dier(String naam) {
         this.naam = naam;
     }
+
 }
