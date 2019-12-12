@@ -3,8 +3,8 @@ public final class WildeKat extends Kat{
         super(naam);
     }
 
-    @Override
+    /*@Override
     public void vangMuis() {
         System.out.println(getNaam() + "muis gevangen en opgegeten!");
-    }
+    }*/
 }
