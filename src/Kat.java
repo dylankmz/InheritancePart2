@@ -8,4 +8,8 @@ public class Kat extends Dier {
         super(naam);
     }
 
+    public void vangMuis() {
+        System.out.println(getNaam() + ": muis gevangen!");
+    }
+
 }

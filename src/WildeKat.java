@@ -1,2 +1,11 @@
-public final class WildeKat {
+public final class WildeKat extends Kat{
+    public WildeKat(String naam) {
+        super(naam);
+    }
+
+    @Override
+    public void vangMuis() {
+        super.vangMuis();
+        System.out.println(getNaam() + "muis gevangen en opgegeten!");
+    }
 }
