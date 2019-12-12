@@ -5,7 +5,6 @@ public final class WildeKat extends Kat{
 
     @Override
     public void vangMuis() {
-        super.vangMuis();
         System.out.println(getNaam() + "muis gevangen en opgegeten!");
     }
 }

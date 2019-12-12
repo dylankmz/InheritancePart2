@@ -13,10 +13,10 @@ public class Application {
         Dier d4 = new Slang("Sissy: ");
         ((Slang)(d4)).vervel();
 
-        Kat k1 = new Kat("Ludo");
+        Kat k1 = new HuisKat("Ludo");
         k1.vangMuis();
 
-        Kat k2 = new Kat("Cindy");
+        Kat k2 = new WildeKat("Cindy");
         k2.vangMuis();
 
     }
