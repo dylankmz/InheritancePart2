@@ -6,7 +6,6 @@ public class Hond extends Dier {
 
     @Override
     public void maakGeluid() {
-        super.maakGeluid();
-        System.out.println("Waf");
+        System.out.println(getNaam() + "Waf");
     }
 }

@@ -1,14 +1,12 @@
-public class Dier {
+public abstract class Dier {
 
-    protected String naam;
+    private String naam;
 
     public Dier(String naam) {
         this.naam = naam;
     }
 
-    public void maakGeluid() {
-        System.out.print(naam);
-    }
+    public abstract void maakGeluid();
 
     public String getNaam() {
         return naam;
