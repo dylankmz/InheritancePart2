@@ -15,6 +15,6 @@ public class Slang extends Dier implements Jager {
 
     @Override
     public void jaag() {
-        System.out.println(getNaam() + " vogeltje gevangen!");
+        System.out.println(getNaam() + ": vogeltje gevangen!");
     }
 }

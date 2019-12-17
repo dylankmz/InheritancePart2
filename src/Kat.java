@@ -2,7 +2,7 @@ public class Kat extends Dier implements Jager {
 
     @Override
     public void maakGeluid() {
-        System.out.println(getNaam() + "Miaw");
+        System.out.println(getNaam() + ": Miaw");
     }
     public Kat(String naam) {
         super(naam);

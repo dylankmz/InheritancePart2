@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Application {
     public static void main(String[] args) {
 
@@ -11,7 +13,7 @@ public class Application {
         d3.maakGeluid();
 
         Dier d4 = new Slang("Sissy: ");
-        ((Slang)(d4)).vervel();
+        ((Slang) (d4)).vervel();
 
         Kat k1 = new HuisKat("Ludo");
         k1.vangMuis();
@@ -21,6 +23,37 @@ public class Application {
 
         Slang s1 = new Slang("Slossy");
         s1.jaag();
+
+        Eend e1 = new Eend("Kwakki");
+        e1.vlieg();
+
+
+        ArrayList<Dier> zoo = new ArrayList<>();
+
+        zoo.add(k1);
+        zoo.add(k2);
+        zoo.add(s1);
+        zoo.add(e1);
+        zoo.add(d1);
+        zoo.add(d2);
+        zoo.add(d3);
+
+
+        for (Dier dier : zoo) {
+
+            dier.maakGeluid();
+
+            if (dier instanceof Slang) {
+                ((Slang) dier).vervel();
+            }
+            if (dier instanceof Jager) {
+                ((Jager) dier).jaag();
+
+            }
+            if (dier instanceof Vogel) {
+                ((Vogel) dier).vlieg();
+            }
+        }
 
 
     }
