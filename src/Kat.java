@@ -1,4 +1,4 @@
-public class Kat extends Dier {
+public class Kat extends Dier implements Jager {
 
     @Override
     public void maakGeluid() {
@@ -12,4 +12,10 @@ public class Kat extends Dier {
         System.out.println(getNaam() + ": muis gevangen!");
     }
 
+    @Override
+    public void jaag() {
+
+        vangMuis();
+
+    }
 }

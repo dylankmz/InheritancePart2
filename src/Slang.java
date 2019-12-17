@@ -1,4 +1,4 @@
-public class Slang extends Dier {
+public class Slang extends Dier implements Jager {
 
     public Slang(String naam) {
         super (naam);
@@ -13,6 +13,8 @@ public class Slang extends Dier {
 
     }
 
-
-
+    @Override
+    public void jaag() {
+        System.out.println(getNaam() + " vogeltje gevangen!");
+    }
 }

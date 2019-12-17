@@ -19,5 +19,9 @@ public class Application {
         Kat k2 = new WildeKat("Cindy");
         k2.vangMuis();
 
+        Slang s1 = new Slang("Slossy");
+        s1.jaag();
+
+
     }
 }
